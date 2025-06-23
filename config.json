@@ -1,0 +1,14 @@
+{
+    "initial_conditions":{
+        "density": 1.0e-4,
+        "temperature": 300.0,
+        "velocity": [0.0, 0.0, 0.0]
+    },
+
+    "compute_controller":{
+        "N": 1e6,
+        "dt": 1e-7,
+        "nsteps": 1000,
+        "output_frequency": 100
+    }
+}
